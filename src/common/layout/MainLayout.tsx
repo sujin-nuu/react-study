@@ -5,7 +5,6 @@ import styled from "styled-components";
 export const MainLayout = () => {
     return (
         <StyledMainLayout>
-            <MainHeader />
             <StyledContents>
                 <SideMenu />
                 <Outlet />
@@ -21,5 +20,6 @@ const StyledMainLayout = styled.div`
 
 const StyledContents = styled.div`
     display: flex;
-    height: calc( 100vh - 5rem );
+    width: 100%;
+    height: 100%;
 `
