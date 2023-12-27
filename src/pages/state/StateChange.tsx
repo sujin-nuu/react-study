@@ -1,6 +1,9 @@
+import { StateChangeContainer } from "containers";
+
 const StateChange = () => {
     return (
         <>
+            <StateChangeContainer />
         </>
     )
 }
